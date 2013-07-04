@@ -60,7 +60,7 @@
 			$this->_running = false;
 			$this->_start_time = null;
 			$this->_end_time = null;
-			$this->_callback_period_interval = 1;
+			$this->_callback_period_interval = 10;
 			
 			$this->_tmp_files = array();
 			
