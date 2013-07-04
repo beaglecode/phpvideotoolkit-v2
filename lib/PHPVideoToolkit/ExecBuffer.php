@@ -234,7 +234,7 @@
 		 * @author Oliver Lillie
 		 * @return void
 		 */
-		public function wait($seconds=1)
+		public function wait($seconds=10)
 		{
 			usleep($seconds*100000);
 		}
